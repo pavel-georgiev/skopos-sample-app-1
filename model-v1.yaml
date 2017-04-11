@@ -20,7 +20,7 @@ components:
             x: 300
             y: 80
     vote:
-        image: datagridsys/sample-vote:{ver}
+        image: datagridsys/sample-vote:${ver}
         replicas: 3
         lifecycle:
             post_instance_attach:
